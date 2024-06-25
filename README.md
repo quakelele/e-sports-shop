@@ -1,30 +1,20 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>Магазин компьютерных игровых девайсов.
+</p>
+<h1>В проекте использованы следующие технологии:</h1>
+<p>ReactHooks, TypeScript, RTK query, ReactRouter, SCSS, AntDesign
+В качестве бэкэнда использован JsonLocalServer</p>
 
-Currently, two official plugins are available:
+<h3>Для установки:</h3>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<li>git clone https://github.com/quakelele/eSportsShop.git</li>  
+<li>npm install</li>
+<li>npm run dev</li>
+<li>npm run server</li>
+<br>
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+ ![1](https://github.com/quakelele/deviceShop/assets/154896596/c56c3d50-9e0d-4153-9490-23289c71836a)
+![56](https://github.com/quakelele/deviceShop/assets/154896596/48cf67fe-18a7-4f8c-b684-a4dc7601c154)
+![4](https://github.com/quakelele/deviceShop/assets/154896596/b12e9bbd-850b-4b77-b426-27c788f0ba30)
+![3](https://github.com/quakelele/deviceShop/assets/154896596/116e5c1c-ed17-4365-9c76-078d67b1ff0c)
