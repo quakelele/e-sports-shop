@@ -1,0 +1,594 @@
+{
+  "products": [
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/f68/hbd38gewekksym4px824popeule8b412/steelseries_rival_3_4.png",
+        "https://www.clife.ru/upload/iblock/738/595jqt5mf3bv1hk5288x2hktomykg2ae/steelseries_rival_3_2.png",
+        "https://www.clife.ru/upload/iblock/753/7gk70vb7j49lotimfwg99199u9jn8run/steelseries_rival_3_3.png",
+        "https://www.clife.ru/upload/iblock/16f/ubj4eb5t0www8408hlsx71ehwut9386s/steelseries_rival_3_1.png",
+        "https://www.clife.ru/upload/iblock/e5c/steelseries_rival_3_1.png"
+      ],
+      "title": "SteelSeries Rival 3",
+      "types": [
+        0
+      ],
+      "price": 69,
+      "comments": [
+        {
+          "author": "Имя пользователя",
+          "text": "sfsfsfs",
+          "timestamp": "2024-05-09T11:11:01.516Z",
+          "likes": 0,
+          "id": 0.05577863781835113
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "5",
+          "timestamp": "2024-05-09T11:11:13.588Z",
+          "likes": 0,
+          "id": 0.34212425790717726
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "dada",
+          "timestamp": "2024-05-09T11:14:59.154Z",
+          "likes": 0,
+          "id": 0.6699781252498256
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "ada",
+          "timestamp": "2024-05-09T11:16:49.428Z",
+          "likes": 0,
+          "id": 0.1657778931521523
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "dadada",
+          "timestamp": "2024-05-09T11:23:42.583Z",
+          "likes": 0,
+          "id": 0.5339808263358143
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "5",
+          "timestamp": "2024-05-14T11:03:19.354Z",
+          "likes": 0,
+          "id": 0.8557320960309458
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "oolk",
+          "timestamp": "2024-05-14T11:05:06.177Z",
+          "likes": 0,
+          "id": 0.8327886888439995
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "1111",
+          "timestamp": "2024-05-29T17:24:17.949Z",
+          "likes": 0,
+          "id": 0.7273215681590828
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "3424242",
+          "timestamp": "2024-05-29T17:26:33.930Z",
+          "likes": 0,
+          "id": 0.32108216972150805
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "414",
+          "timestamp": "2024-05-29T17:27:14.149Z",
+          "likes": 0,
+          "id": 0.043076169649548524
+        }
+      ],
+      "category": "Mouse",
+      "quantity": 1,
+      "rating": 3,
+      "likes": 0,
+      "weight": 77,
+      "description": "Мышь проводная SteelSeries Rival 3 - оптимальный вариант для прохождения игр любой жанровой направленности. Отличительной особенностью этой модели стала высокая разрешающая способность оптического датчика, максимальный показатель которой может достигать 8500 dpi.",
+      "id": 4
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/081/steelseries_prime_wireless_7.png",
+        "https://www.clife.ru/upload/iblock/d8d/steelseries_prime_wireless_9.png",
+        "https://www.clife.ru/upload/iblock/bb7/steelseries_prime_wireless_5.png",
+        "https://www.clife.ru/upload/iblock/e7f/steelseries_prime_wireless_2.png",
+        "https://www.clife.ru/upload/iblock/be2/steelseries_prime_wireless_1.png"
+      ],
+      "title": "SteelSeries Prime Wireless ",
+      "types": [
+        1
+      ],
+      "comments": [
+        {
+          "author": "Имя пользователя",
+          "text": "dada",
+          "timestamp": "2024-05-29T12:52:42.999Z",
+          "likes": 0,
+          "id": 0.6279264658677919
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "fff",
+          "timestamp": "2024-05-29T12:52:44.339Z",
+          "likes": 0,
+          "id": 0.016400104433576423
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "415",
+          "timestamp": "2024-05-30T01:46:20.141Z",
+          "likes": 0,
+          "id": 0.031028375864257107
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "",
+          "timestamp": "2024-06-18T10:17:26.842Z",
+          "likes": 0,
+          "id": 0.6885697905139618
+        }
+      ],
+      "price": 129,
+      "likes": 0,
+      "id": 6,
+      "quantity": 1,
+      "category": "Mouse",
+      "rating": 3.5,
+      "weight": 69,
+      "description": "Steelseries Prime wireless mouse is a game model with 6 buttons and RGB backlight.Symmetric design guarantees the convenience of holding by any hand.Matte plastic protects from sliding, masks fingerprints and similar contaminants."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/d7b/steelseries_sensei_ten_2.png"
+      ],
+      "title": "SteelSeries Sensei ten",
+      "types": [
+        1
+      ],
+      "price": 169,
+      "likes": 0,
+      "comments": [
+        {
+          "author": "Имя пользователя",
+          "text": "1",
+          "timestamp": "2024-05-29T17:13:13.492Z",
+          "likes": 0,
+          "id": 0.4313739040504454
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "2",
+          "timestamp": "2024-06-25T13:13:59.549Z",
+          "likes": 0,
+          "id": 0.129563537686733
+        }
+      ],
+      "id": 7,
+      "quantity": 1,
+      "category": "Mouse",
+      "rating": 3.8,
+      "weight": 119,
+      "description": "Steelseries Sensei Ten is a wire optical mouse for gamers.PGB backlighting makes mouse design more attractive.The high -sensitive Trueumove Pro sensor is with a sensor that is responsible for instant response and high positioning accuracy."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/355/steelseries_prime_plus_5.png"
+      ],
+      "title": "SteelSeries Prime+",
+      "types": [
+        0
+      ],
+      "likes": 0,
+      "comments": [],
+      "price": 99,
+      "quantity": 1,
+      "category": "Mouse",
+      "rating": 4.3,
+      "id": 8,
+      "weight": 121,
+      "description": "The wired mouse Steelseries Prime+ is a convenient and reliable game model that will accompany you at all tournaments.The laconic black case is suitable for grip by any hand, and traces of fingers are not visible on the matte surface.Multi -colored illumination turns the mouse into a beautiful decoration of the computer table."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/322/steelseries_apex_7_tkl_1.png"
+      ],
+      "title": "SteelSeries Apex Pro TKL",
+      "types": [
+        0
+      ],
+      "likes": 0,
+      "comments": [
+        {
+          "author": "Имя пользователя",
+          "text": "sp[lfjk dpoaigmd",
+          "timestamp": "2024-06-19T14:37:55.235Z",
+          "likes": 0,
+          "id": 0.50905364154588
+        }
+      ],
+      "price": 399,
+      "category": "Keyboard",
+      "rating": 4,
+      "quantity": 1,
+      "id": 9,
+      "weight": 1290,
+      "description": "The wire keyboard Steelseries Apex Pro TKL RU with mechanical switches of Omnipoint Black is a game device with 89 keys.It is designed for hypersensitive games, provides comfortable work in office applications."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/2b9/steelseries_apex_pro_mini_wireless.jpg"
+      ],
+      "title": "SteelSeries Apex Pro Mini Wireless",
+      "types": [
+        1
+      ],
+      "comments": [
+        {
+          "author": "Имя пользователя",
+          "text": "kon4enniy klav",
+          "timestamp": "2024-06-01T10:56:15.425Z",
+          "likes": 0,
+          "id": 0.7720219398634953
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "dadadada",
+          "timestamp": "2024-06-21T12:06:06.826Z",
+          "likes": 0,
+          "id": 0.814235706815476
+        }
+      ],
+      "price": 287,
+      "likes": 0,
+      "quantity": 1,
+      "id": 10,
+      "category": "Keyboard",
+      "rating": 4,
+      "weight": 1190,
+      "description": "The fast and compact wireless keyboard Steelseries Apex Pro Mini Wireless is a modification of the full -sized Steelseries Apex Pro.The model has a 60%form factor, equipped with magnetic mechanical switches, provides wireless connection without delay due to support for Quantum 2.0 technology."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/35e/hyperx_alloy_fps_pro_1.jpg"
+      ],
+      "title": "HyperX Alloy FPS Pro Cherry MX Red",
+      "types": [
+        0
+      ],
+      "price": 237,
+      "id": 11,
+      "comments": [],
+      "likes": 0,
+      "quantity": 1,
+      "category": "Keyboard",
+      "rating": 4,
+      "weight": 1420,
+      "description": "Kingston Hyperx Allloy Fps Pro Cherry MX Red is a very reliable, stylish and multifunction game keyboard.It was designed specifically for fans of first -person games, as it differs in the maximum speed and soft response of keystrokes."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/ef2/zorzi2g1e8a8e2esu5dtiv9w9axihpiq/hyperx_alloy_origins_3.png"
+      ],
+      "title": "HyperX Alloy Origins RGB Blue Switches",
+      "types": [
+        0
+      ],
+      "price": 267,
+      "category": "Keyboard",
+      "rating": 3.5,
+      "comments": [],
+      "likes": 0,
+      "quantity": 1,
+      "id": 12,
+      "weight": 1120,
+      "description": "Among the latest keyboard models, the Kingston brand developers, the Hyperx Alloy Origins RGB Blue Switchs received highly high sales ratings.The secret of the popularity of this device of gaming specifics is in its ergonomics, reliability and advanced functionality."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/e52/uznqyzqb77rl0jsq26cu02mw0sqj2l68/hyperx_alloy_fps_rgb_3.png"
+      ],
+      "title": "HyperX Alloy FPS RGB",
+      "types": [
+        0
+      ],
+      "price": 217,
+      "quantity": 1,
+      "likes": 0,
+      "category": "Keyboard",
+      "rating": 7,
+      "comments": [],
+      "id": 13,
+      "weight": 1460,
+      "description": "If you like small and portable, but durable, modern and functional keyboards, then the Hyperx Allloy FPS RGB model will definitely taste.This sample will like, first of all, to gamers.It opens up wide game opportunities for conducting successful and always convenient games.",
+      "ebal": [
+        {
+          "author": "Имя пользователя",
+          "text": "ata",
+          "timestamp": "2024-03-08T11:49:52.355Z",
+          "likes": 0,
+          "id": 0.07738166935967516
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "dada",
+          "timestamp": "2024-03-08T11:49:54.677Z",
+          "likes": 0,
+          "id": 0.21441419014633012
+        }
+      ]
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/682/steelseries_arctis_prime_1.png"
+      ],
+      "title": "SteelSeries Arctis Prime",
+      "types": [
+        0
+      ],
+      "price": 117,
+      "id": "14",
+      "quantity": 1,
+      "comments": [],
+      "category": "Headset",
+      "rating": 2.5,
+      "weight": 950,
+      "description": "In the most popular series of Steelseries Arctis players, a new model appeared with a number of chips in the form of updated speakers, an outfield of improved comfort and a removable cable that allows you to connect the device not only to the computer.The developers called these headphones Steelseries Arctis Prime."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/5fa/hyperx_cloud_mix_1.jpg"
+      ],
+      "title": "HyperX Cloud MIX",
+      "types": [
+        0
+      ],
+      "id": "15",
+      "price": 147,
+      "comments": [],
+      "quantity": 1,
+      "category": "Headset",
+      "rating": 2.2,
+      "weight": 920,
+      "description": "Recently, the developers of the famous trademark showed the world a new and, as always an interesting line of sets, including the Hyperx Cloud Mix model.The priority feature of this modification was its multifunctionality."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/9f5/dark_project_hs1_1.png"
+      ],
+      "title": "Dark Project HS-1",
+      "types": [
+        0
+      ],
+      "price": 157,
+      "comments": [],
+      "id": "16",
+      "category": "Headset",
+      "rating": 3.3,
+      "quantity": 1,
+      "weight": 910,
+      "description": "Dark Project HS-1 is a cross-platform set and can work from almost any sound sources.Both analog and standard USB port, because a sound chip and a backlight controller is installed in the set control panel."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/583/asus_rog_delta_s_animate_1.png"
+      ],
+      "title": "ASUS ROG Delta S Animate",
+      "types": [
+        0
+      ],
+      "id": "17",
+      "price": 125,
+      "quantity": 1,
+      "comments": [],
+      "category": "Headset",
+      "rating": 4,
+      "weight": 860,
+      "description": "Now highlighting headphones are no longer surprising, however, the ASUS developers recently managed to create an instance that is equipped not just to backlighting, but by adjustable Anime Matrix diode displays.This feature was received by the ASUS ROG Delta S Animate game headset, only on sale."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/64f/dxracer_ks_06_n_1.png"
+      ],
+      "title": "DXRacer King OH/K06/N",
+      "types": [
+        0
+      ],
+      "price": 437,
+      "id": "18",
+      "quantity": 1,
+      "category": "Chair",
+      "comments": [],
+      "rating": 4.8,
+      "weight": 27000,
+      "description": "Sometimes just one change is enough to feel like a king.In this case, this is a purchase of a chair for a gamer DXRACER OH/K06/N: your new workplace that will make you feel definitely differently.How?Frescent, relaxed, more comfortable - choose the definitions themselves, because the sensations from staying in this chair are simply indescribable."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/9b2/dxracer_oh_ks06_no_1.png"
+      ],
+      "title": "DXRacer King OH/KS06/NO",
+      "types": [
+        0
+      ],
+      "id": "19",
+      "price": 377,
+      "quantity": 1,
+      "category": "Chair",
+      "comments": [],
+      "rating": 4.2,
+      "weight": 23000,
+      "description": "DXRACER OH/KS06/NO is a playing chair that has become widespread among ordinary users and professional gamers.It has not only a stylish design that copies the seat of a sports car, but also excellent ergonomics - and this is the most important thing.This chair is an excellent choice for those gamers or just users who are sitting down on the computer for hours."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/a81/dxrcer_oh_is11_ne_1.png"
+      ],
+      "title": "DXRacer Iron OH/IS11/NE",
+      "types": [
+        0
+      ],
+      "price": 497,
+      "category": "Chair",
+      "id": "20",
+      "quantity": 1,
+      "comments": [
+        {
+          "author": "Имя пользователя",
+          "text": "kak kreslo kusoq gavna",
+          "timestamp": "2024-06-18T10:27:10.659Z",
+          "likes": 0,
+          "id": 0.06045004179525848
+        }
+      ],
+      "rating": 3,
+      "weight": 28000,
+      "description": "The bright and juicy black and green armchair with an unusual cross-cut DXRACER IRON OH/IS11/NE pleases its fans with excellent quality and ergonomics.It is convenient on this chair, regardless of whether you work or relax."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/b55/vmm_gaming_astral_red_1.png"
+      ],
+      "title": "VMMGame Astral Red",
+      "types": [
+        0
+      ],
+      "price": 332,
+      "id": "21",
+      "quantity": 1,
+      "comments": [],
+      "category": "Chair",
+      "rating": 5,
+      "weight": 22000,
+      "description": "A series of Astral game chairs from the young domestic brand VMM Gaming, despite its novelty, gained wide popularity.One of the most rating models of this series was the computer chair VMM Gaming Astral Red, which has an expressive color design, which clearly indicates the gaming specifics of the product."
+    }
+  ],
+  "cart": [
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/f68/hbd38gewekksym4px824popeule8b412/steelseries_rival_3_4.png",
+        "https://www.clife.ru/upload/iblock/738/595jqt5mf3bv1hk5288x2hktomykg2ae/steelseries_rival_3_2.png",
+        "https://www.clife.ru/upload/iblock/753/7gk70vb7j49lotimfwg99199u9jn8run/steelseries_rival_3_3.png",
+        "https://www.clife.ru/upload/iblock/16f/ubj4eb5t0www8408hlsx71ehwut9386s/steelseries_rival_3_1.png",
+        "https://www.clife.ru/upload/iblock/e5c/steelseries_rival_3_1.png"
+      ],
+      "title": "SteelSeries Rival 3",
+      "types": [
+        0
+      ],
+      "price": 69,
+      "comments": [
+        {
+          "author": "Имя пользователя",
+          "text": "sfsfsfs",
+          "timestamp": "2024-05-09T11:11:01.516Z",
+          "likes": 0,
+          "id": 0.05577863781835113
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "5",
+          "timestamp": "2024-05-09T11:11:13.588Z",
+          "likes": 0,
+          "id": 0.34212425790717726
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "dada",
+          "timestamp": "2024-05-09T11:14:59.154Z",
+          "likes": 0,
+          "id": 0.6699781252498256
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "ada",
+          "timestamp": "2024-05-09T11:16:49.428Z",
+          "likes": 0,
+          "id": 0.1657778931521523
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "dadada",
+          "timestamp": "2024-05-09T11:23:42.583Z",
+          "likes": 0,
+          "id": 0.5339808263358143
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "5",
+          "timestamp": "2024-05-14T11:03:19.354Z",
+          "likes": 0,
+          "id": 0.8557320960309458
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "oolk",
+          "timestamp": "2024-05-14T11:05:06.177Z",
+          "likes": 0,
+          "id": 0.8327886888439995
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "1111",
+          "timestamp": "2024-05-29T17:24:17.949Z",
+          "likes": 0,
+          "id": 0.7273215681590828
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "3424242",
+          "timestamp": "2024-05-29T17:26:33.930Z",
+          "likes": 0,
+          "id": 0.32108216972150805
+        },
+        {
+          "author": "Имя пользователя",
+          "text": "414",
+          "timestamp": "2024-05-29T17:27:14.149Z",
+          "likes": 0,
+          "id": 0.043076169649548524
+        }
+      ],
+      "category": "Mouse",
+      "quantity": 1,
+      "rating": 3,
+      "likes": 0,
+      "weight": 77,
+      "description": "Мышь проводная SteelSeries Rival 3 - оптимальный вариант для прохождения игр любой жанровой направленности. Отличительной особенностью этой модели стала высокая разрешающая способность оптического датчика, максимальный показатель которой может достигать 8500 dpi.",
+      "id": 4
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/682/steelseries_arctis_prime_1.png"
+      ],
+      "title": "SteelSeries Arctis Prime",
+      "types": [
+        0
+      ],
+      "price": 117,
+      "id": "14",
+      "quantity": 1,
+      "comments": [],
+      "category": "Headset",
+      "rating": 2.5,
+      "weight": 950,
+      "description": "In the most popular series of Steelseries Arctis players, a new model appeared with a number of chips in the form of updated speakers, an outfield of improved comfort and a removable cable that allows you to connect the device not only to the computer.The developers called these headphones Steelseries Arctis Prime."
+    }
+  ],
+  "favorites": [],
+  "users": [
+    {
+      "email": "dadadada@mail.ru",
+      "password": "123123123",
+      "confirm": "123123123",
+      "nickname": "ebaeba",
+      "id": 1
+    }
+  ]
+}

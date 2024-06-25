@@ -1,0 +1,172 @@
+@use 'sass:math';
+@mixin fluid-text($max: 48, $min: 12) {
+   font-size: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+@mixin fluid-quantity-width($max: 109, $min: 60) {
+   width: clamp(#{$min}px, #{$max / 1130 * 100}vw, #{$max}px);
+}
+@mixin fluid-quantity-height($max: 40, $min: 25) {
+   height: clamp(#{$min}px, #{$max / 1130 * 100}vw, #{$max}px);
+}
+
+.wrapper {
+   .wrapperTop {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      gap: 30px;
+      align-items: center;
+      padding: 20px 0;
+
+      border-bottom: 1px solid rgb(217, 218, 219);
+      .congrats {
+         opacity: 0;
+         width: 150px;
+         transition: all 0.5s ease-in;
+      }
+
+      h3 {
+         color: rgb(75, 81, 87);
+         @include fluid-text(14, 7);
+         font-weight: 400;
+         text-align: left;
+      }
+      h4 {
+         color: rgb(38, 45, 51);
+         @include fluid-text(14, 7);
+         font-weight: 800;
+         text-align: left;
+      }
+      .switch {
+         :global(.ant-switch.ant-switch-checked) {
+            background-color: black;
+         }
+
+         cursor: pointer;
+         padding: 10px 15px;
+         gap: 45px;
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         box-sizing: border-box;
+         border: 1px solid rgb(138, 138, 138);
+         border-radius: 100px;
+         background: rgb(255, 255, 255);
+         img {
+            width: 18px;
+            height: 12.6px;
+         }
+      }
+      .discount {
+         align-items: center;
+         display: flex;
+         opacity: 0;
+         transition: all 1s ease-in;
+      }
+      .active {
+         opacity: 1;
+         transition: all 1s ease-in-out;
+      }
+   }
+   .wrapperBottom {
+      justify-content: space-between;
+      display: flex;
+      .left {
+         cursor: pointer;
+         display: flex;
+         align-items: center;
+         gap: 10px;
+         h3 {
+            align-items: center;
+            display: flex;
+            color: rgb(147, 150, 153);
+            @include fluid-text(14, 7);
+            font-weight: 800;
+            text-align: left;
+         }
+         img {
+            cursor: pointer;
+            width: 15px;
+            height: 7px;
+         }
+      }
+      .right {
+         display: flex;
+         gap: 12px;
+         align-items: center;
+         h3 {
+            color: rgb(75, 81, 87);
+            @include fluid-text(14, 7);
+            font-weight: 400;
+            line-height: 20px;
+            text-align: right;
+         }
+         h4 {
+            color: rgb(38, 45, 51);
+            @include fluid-text(14, 7);
+            font-weight: 800;
+            line-height: 20px;
+            text-align: right;
+            width: 30px;
+         }
+         button {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            @include fluid-quantity-width(128, 60);
+            @include fluid-quantity-height(40, 20);
+            @include fluid-text(14, 8);
+            padding: 15px 30px;
+            border-radius: 20px;
+            background: rgb(20, 20, 22);
+            color: white;
+         }
+      }
+   }
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 768px) {
+   .wrapperBottom {
+      .right {
+         button {
+            padding: 15px 15px;
+         }
+      }
+   }
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 476px) {
+   .wrapperTop {
+      gap: 15px;
+      span {
+         padding: 5px 7px;
+      }
+   }
+}
+@media (max-width: 370px) {
+   .wrapperTop {
+      gap: 2px;
+   }
+   .wrapperBottom {
+      .right {
+         // без скобок вложенных можно
+         button {
+            padding: 10px 10px;
+         }
+      }
+   }
+}
+@media (max-width: 329px) {
+   .wrapperBottom {
+      .right {
+         //тоже самое
+         button {
+            padding: 10px 10px;
+         }
+      }
+   }
+}

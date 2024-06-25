@@ -1,0 +1,77 @@
+.wrapper {
+  // width: calc(100% - 30px); // Уменьшаем ширину инпута на 30px для компенсации ширины изображения
+
+  width: 467px; // Максимальная ширина для сохранения размера на более широких экранах
+  position: relative;
+  img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  input {
+    width: 100%;
+    min-width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    background: rgb(247, 247, 247);
+    text-indent: 50px;
+    border: none;
+    color: rgb(98, 98, 100);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    transition: all 0.3s ease;
+    box-shadow: 2px 3px 11px rgba(0, 0, 0, 0.12);
+    &:hover {
+      box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.15);
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@media (max-width: 1214px) {
+}
+@media (max-width: 768px) {
+  .wrapper {
+    width: 350px;
+  }
+}
+@media (max-width: 480px) {
+  .wrapper {
+    width: 250px;
+  }
+}
+@media (max-width: 586px) {
+  .wrapper {
+    width: 250px;
+  }
+}
+@media (max-width: 586px) {
+  .wrapper {
+    width: 250px;
+  }
+}
+@media (max-width: 476px) {
+  .wrapper {
+    width: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  .wrapper {
+    width: 180px;
+    input {
+      text-indent: 30px;
+      font-size: 10px;
+    }
+    img {
+      left: 5px;
+    }
+  }
+}

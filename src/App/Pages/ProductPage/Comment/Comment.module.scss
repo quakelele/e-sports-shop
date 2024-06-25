@@ -1,0 +1,78 @@
+@use "sass:math";
+@mixin fluid-text($max: 48, $min: 12) {
+  font-size: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+@mixin fluid-button-width($max: 350, $min: 300) {
+  width: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+@mixin fluid-button-height($max: 350, $min: 300) {
+  height:clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+
+.commentWrapper {
+  margin-top: 50px;
+  gap: 20px;
+  display: flex;
+  .commentAvatar {
+    img {
+      border-radius: 40px;
+      background-color: gray;
+      @include fluid-button-width(50, 25);
+      @include fluid-button-height(50, 25);
+    }
+  }
+  .commentRight {
+    display: flex;
+    flex-direction: column;
+    .commentTitle {
+      justify-content: space-between;
+      display: flex;
+      color: rgb(20, 20, 22);
+      @include fluid-text(14, 8);
+      font-weight: 500;
+      line-height: 24px;
+      text-align: left;
+      gap: 0px;
+    }
+    .commentText {
+      color: rgb(53, 57, 69);
+      @include fluid-text(14, 8);
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    .commentLike {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h3 {
+        color: rgb(119, 126, 145);
+        @include fluid-text(12, 8);
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      span {
+        color: rgb(35, 38, 47);
+        @include fluid-text(12, 8);
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 476px) {
+}
+@media (max-width: 329px) {
+}

@@ -1,0 +1,122 @@
+@use "sass:math";
+@mixin btn-default {
+  box-sizing: border-box;
+  width: 22%;
+  padding: 10px 5px;
+  font-weight: 300;
+  border-radius: 15px;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  margin-right: 10px;
+  &:hover {
+    color: white;
+    background: rgb(119, 126, 145);
+  }
+}
+
+@mixin fluid-text($max: 12, $min: 8) {
+  font-size: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+
+.itemWrapper {
+  opacity: 1;
+  align-items: center;
+  top: 0;
+  display: flex;
+  border-radius: 20px;
+  margin-top: 15px;
+  justify-content: center;
+  width: 100%;
+  :global(.ant-image) {
+    width: 355px;
+  }
+  img {
+    width: 100%;
+    transition: all 0.3s ease;
+    &:hover {
+      transform: scale(1.2); /* Увеличение изображения при hover */
+    }
+  }
+  .itemInner {
+    gap: 15px;
+    width: 700px;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 11px;
+    display: flex;
+    overflow: hidden; /* Скрыть переполненный текст */
+    text-overflow: ellipsis; /* Добавить троеточие в конце */
+    transition: all 0.5s ease;
+    box-shadow: 3px 1px 11px rgba(0, 0, 0, 0.15);
+    &:hover {
+      box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.15);
+    }
+    .itemTop {
+      p {
+        margin: 0;
+        @include fluid-text(14, 8);
+        color: rgb(54, 57, 64);
+      }
+      h3 {
+        margin: 0;
+        @include fluid-text(22, 11);
+        color: rgb(54, 57, 64);
+      }
+      h4 {
+        @include fluid-text(25, 11);
+        transition: all 0.3s ease;
+        &:hover {
+          transform: scale(1.2); /* Увеличение изображения при hover */
+        }
+      }
+
+      .itemBottom {
+        display: flex;
+        justify-content: center;
+        gap: 44px;
+        align-items: center;
+      }
+    }
+  }
+
+  .addBtn {
+    @include btn-default;
+    color: black;
+    border: 1px solid rgba(119, 126, 145, 0.514);
+    background: #f3f3f371;
+    &:hover {
+      color: white;
+      background: rgb(119, 126, 145);
+    }
+  }
+
+  .added {
+    @include btn-default;
+    background: rgb(112, 190, 116);
+    color: white;
+    border: 1px solid rgba(119, 126, 145, 0.514);
+    &:hover {
+      color: white;
+      background: #23cf0093;
+    }
+  }
+
+  .addedFav {
+    @include btn-default;
+    color: black;
+    border: 1px solid rgba(119, 126, 145, 0.514);
+    background: #f3f3f371;
+    &:hover {
+      color: white;
+      background: rgba(212, 13, 13, 0.801);
+    }
+  }
+}
+.fadeOut {
+  opacity: 0;
+  top: -70px;
+  width: 70%;
+  height: 10%;
+  transition: all 0.5s ease-out;
+}

@@ -1,0 +1,19 @@
+@use 'sass:math';
+@mixin fluid-text($max: 12, $min: 8) {
+    font-size: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+.wrapper {
+    .inner {
+        display: flex;
+        flex-direction: column;
+    }
+}
+h1 {
+    margin-top: 100px;
+    @include fluid-text(55, 12);
+    align-items: center;
+    text-align: center;
+}
+.empty {
+    margin-top: 150px;
+}

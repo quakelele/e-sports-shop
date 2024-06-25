@@ -1,0 +1,155 @@
+@use "sass:math";
+@mixin fluid-text($max: 48, $min: 12) {
+  font-size: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+@mixin fluid-button-width($max: 141, $min: 100) {
+  width:  clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+@mixin fluid-button-height($max: 40, $min: 35) {
+  height:  clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+
+.wrapperTop {
+   width: 100%;
+   display: flex;
+   margin: 0;
+   .imgUrl {
+      aspect-ratio: 16 / 9;
+      img {
+         width: 100%;
+         object-fit: contain;
+         display: inline-block;
+         border-radius: 20px;
+         cursor: pointer;
+         border: 1px solid rgba(238, 238, 238, 0.76);
+      }
+   }
+   .top {
+      margin-left: 55px;
+      gap: 30px;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: column;
+   }
+   .price {
+      color: rgb(24, 33, 53);
+      @include fluid-text(32, 12);
+      font-weight: 700;
+      line-height: 40px;
+      text-align: left;
+   }
+   .topRight {
+      align-items: center;
+      text-align: left;
+      gap: 21px;
+      display: flex;
+      height: 50px;
+      h3 {
+         color: rgb(24, 33, 53);
+         @include fluid-text(32, 12);
+         font-weight: 700;
+         line-height: 40px;
+         letter-spacing: 0px;
+         text-align: left;
+      }
+      span {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 40px;
+         height: 40px;
+         box-sizing: border-box;
+         border: 2px solid rgb(230, 232, 236);
+         border-radius: 48px;
+         box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+         background: rgb(252, 252, 253);
+      }
+   }
+   .rating {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: left;
+      gap: 15px;
+      @include fluid-text(16, 8);
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+   }
+   .btns {
+      display: flex;
+      gap: 20px;
+      button {
+         color: rgb(255, 255, 255);
+         @include fluid-text(14, 8);
+         font-weight: 600;
+         line-height: 20px;
+         letter-spacing: 0px;
+         text-align: center;
+         box-sizing: border-box;
+         color: black;
+         border: 1px solid rgb(217, 218, 219);
+         border-radius: 20px;
+         @include fluid-button-width;
+         @include fluid-button-height;
+         transition: all 0.4s ease;
+         cursor: pointer;
+         &:hover {
+            color: white;
+            background: rgb(0, 0, 0);
+         }
+      }
+   }
+   .description {
+      color: rgb(98, 98, 100);
+      @include fluid-text(16, 8);
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      color: rgb(98, 98, 100);
+      font-weight: 400;
+      line-height: 17px;
+      text-align: left;
+      overflow-wrap: break-word; /* Modern way */
+      word-wrap: break-word; /* Legacy support */
+   }
+   .quantity {
+      gap: 18px;
+      text-align: center;
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+      color: rgb(119, 119, 119);
+      @include fluid-text(20, 10);
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0%;
+      text-align: center;
+      span {
+         justify-content: center;
+         display: flex;
+         text-align: center;
+         align-items: center;
+         @include fluid-button-width(40, 20);
+         @include fluid-button-height(40, 20);
+
+         border-radius: 15px;
+         background: rgb(241, 244, 243);
+         transition: all 0.4s ease;
+         cursor: pointer;
+         &:hover {
+            color: white;
+            background: rgb(0, 0, 0);
+         }
+      }
+   }
+}
+.heart {
+   width: 18px;
+   height: 18px;
+   color: rgb(156, 151, 151);
+}
+.active {
+   color: rgba(197, 4, 4, 0.829);
+}

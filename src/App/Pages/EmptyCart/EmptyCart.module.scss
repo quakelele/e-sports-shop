@@ -1,0 +1,116 @@
+@use "sass:math";
+@mixin fluid-text($max: 48, $min: 12) {
+  font-size: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+@mixin fluid-image-width($max: 350, $min: 300) {
+  width: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+@mixin fluid-image-height($max: 350, $min: 300) {
+  height: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+
+.wrapper {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    @include fluid-text(25, 13);
+  }
+  h2 {
+    @include fluid-text(18, 10);
+    color: rgb(119, 126, 145);
+  }
+  .text {
+    text-align: center;
+  }
+  .imgs {
+    cursor: pointer;
+    .goBack {
+      h3 {
+        @include fluid-text(18, 10);
+      }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(119, 126, 145);
+      gap: 5px;
+      animation: zoomInOut 4s infinite;
+      .return {
+        width: 36px;
+        height: 36px;
+      }
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    img {
+      @include fluid-image-height;
+      @include fluid-image-width;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+@keyframes zoomInOut {
+  0%,
+  100% {
+    transform: scale(1) translateX(0%);
+  } /* Начальная и конечная точки */
+  50% {
+    transform: scale(0.5) translateX(-50%);
+  } /* Уменьшаем размер и двигаем влево */
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.8);
+  } /* Уменьшаем размер изображения до половины */
+  50% {
+    transform: scale(1);
+  } /* Увеличиваем размер изображения до изначального */
+  75% {
+    transform: scale(0.9);
+  } /* Уменьшаем размер изображения до половины */
+  100% {
+    transform: scale(1);
+  } /* Увеличиваем размер изображения до изначального */
+}
+
+@media (max-width: 1100px) {
+  .wrapper {
+    padding-top: 80px;
+    .imgs {
+      flex-direction: column;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .wrapper {
+    padding-top: 110px;
+  }
+}
+@media (max-width: 576px) {
+  .wrapper {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+    .imgs {
+      flex-direction: column;
+    }
+  }
+}
+@media (max-width: 476px) {
+}
+@media (max-width: 329px) {
+  .wrapper {
+    padding-top: 180px;
+  }
+}

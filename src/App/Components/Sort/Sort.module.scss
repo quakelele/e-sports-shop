@@ -1,0 +1,149 @@
+.inputNumber {
+  :global(.ant-input-number) {
+    width: 87px;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(217, 218, 219);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+  }
+
+  :global(.ant-input-number .ant-input-number-input) {
+    padding: 10px;
+  }
+  :global(.ant-input-number-outlined:hover) {
+    border-color: rgba(150, 150, 150, 0.678);
+  }
+  :global(.ant-input-number .ant-input-number-handler-down-inner svg) {
+    fill: rgb(68, 68, 68);
+  }
+  :global(.ant-input-number .ant-input-number-handler-up-inner svg) {
+    fill: rgb(68, 68, 68);
+  }
+  :global(.ant-input-number-outlined:focus-within) {
+    border-color: rgb(143, 114, 114);
+    box-shadow: 0 0 0 2px rgba(124, 124, 124, 0.1);
+  }
+  .inputBlock {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    justify-content: space-around;
+    span {
+      height: 2px;
+      border-radius: 1px;
+      background: rgb(187, 187, 187);
+    }
+  }
+}
+.antButton {
+  display: flex;
+  justify-content: center;
+  :global(.ant-btn-primary) {
+    background-color: black;
+  }
+  :global(.ant-btn-primary:hover) {
+    background: rgb(78, 78, 78);
+  }
+}
+.checkBox {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  :global(.ant-checkbox:hover .ant-checkbox-inner) {
+    border-color: #7e7e7e !important;
+  }
+
+  :global(.ant-wave-target) {
+    &:hover {
+      background-color: rgba(36, 36, 36, 0.753) !important;
+      border-color: rgb(255, 255, 255) !important;
+    }
+  }
+
+  .productCount {
+    color: rgb(147, 150, 153);
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  :global(.ant-checkbox-checked .ant-checkbox-inner) {
+    background-color: #000000;
+    border-color: #000000;
+  }
+
+  :global(.ant-checkbox .ant-checkbox-inner) {
+    border-color: rgba(172, 172, 172, 0.541); // for mouse focus color
+  }
+  :global(
+      .ant-checkbox-wrapper:hover .ant-checkbox-checked .ant-checkbox-inner
+    ) {
+    background-color: #272727 !important;
+    border-color: #b1b1b1 !important;
+  }
+}
+.count {
+  color: rgb(147, 150, 153);
+  font-size: 12px;
+  font-weight: 400;
+}
+.slider {
+  :global(.ant-slider-rail) {
+    width: 100%;
+  }
+  :global(.ant-slider) {
+    margin: 0px 22px;
+  }
+  :global(.ant-slider .ant-slider-handle::after) {
+    left: 15%;
+    background-color: black;
+    color: black;
+    background: black;
+  }
+  :global(.ant-slider .ant-slider-handle:focus::after) {
+    left: 15%;
+    border: 0;
+    box-shadow: 0;
+    background-color: black;
+    color: black;
+    background: black;
+  }
+  :global(.ant-slider .ant-slider-handle::after) {
+    box-shadow: 0 0 0 1px #000000;
+  }
+  :global(.ant-slider .ant-slider-track) {
+    background-color: black;
+  }
+  :global(.ant-slider .ant-slider-rail) {
+    border-radius: 2.5px;
+    background: rgb(217, 218, 219);
+  }
+}
+ul {
+  padding: 0;
+}
+h3 {
+  color: rgba(0, 0, 0, 0.88);
+  font-weight: 600;
+  font-size: 16px;
+}
+.antButton {
+  :global(.ant-btn-primary) {
+    background-color: black;
+    &:hover {
+      background-color: rgba(36, 36, 36, 0.753) !important;
+      // border-color: rgb(255, 255, 255) !important;
+    }
+  }
+}
+:global(.ant-modal .ant-modal-content) {
+  padding: 20px;
+}
+@media (max-width: 1669px) {
+}
+.wrapper {
+  img {
+    cursor: pointer;
+  }
+}

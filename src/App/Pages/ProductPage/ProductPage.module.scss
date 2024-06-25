@@ -1,0 +1,144 @@
+@use 'sass:math';
+@mixin fluid-text($max: 48, $min: 12) {
+   font-size: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+@mixin fluid-button-width($max: 141, $min: 100) {
+   width: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+@mixin fluid-button-height($max: 40, $min: 35) {
+   height: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+
+.wrapper {
+   width: 1120px;
+   padding: 163px;
+   :global(.ant-image) {
+      width: 320px;
+   }
+
+   .wrapperBottom {
+      :global(.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn) {
+         color: black;
+         text-shadow: 0 0 0.1px;
+      }
+      :global(.ant-tabs .ant-tabs-tab:hover) {
+         color: rgb(114, 114, 114);
+      }
+      :global(.ant-tabs .ant-tabs-ink-bar) {
+         background: #8a8a8a;
+      }
+      padding: 0;
+      ul {
+         display: flex;
+         flex-direction: row;
+         text-align: left;
+         justify-content: left;
+         padding: 0;
+         li {
+            cursor: pointer;
+            list-style-type: none;
+            transition: all 0.5s ease;
+            // border-bottom: 0px solid gray;
+            h3 {
+               color: rgb(0, 0, 0);
+               @include fluid-text(16, 8);
+               border-radius: 10px;
+               font-weight: 600;
+               line-height: 24px;
+               background-color: rgb(255, 255, 255);
+               transition: background-color 0.5s ease;
+               padding: 3px 7px 3px 7px;
+
+               &:hover {
+                  background-color: gray;
+                  color: white;
+               }
+            }
+         }
+      }
+      .review {
+         width: 50%;
+         .inputField {
+            position: relative;
+         }
+      }
+      .comment {
+         width: 100%;
+         display: flex;
+         gap: 250px;
+         text-align: center;
+         align-items: center;
+         margin-top: 48px;
+         margin-bottom: 100px;
+      }
+   }
+}
+
+.descriptionData {
+   width: 100%;
+   @include fluid-text(22, 8);
+   overflow-wrap: break-word; /* Modern way */
+   word-wrap: break-word; /* Legacy support */
+}
+.uleActiveSecond {
+   color: red;
+   height: 15px;
+}
+
+.inputField {
+   @include fluid-button-width(330, 220);
+   @include fluid-button-height(40, 32);
+   margin-right: 10px;
+   padding: 16px 16px 16px 24px;
+   box-sizing: border-box;
+   border: 2px solid rgb(230, 232, 236);
+   // border-radius: 16px;
+   border-top-left-radius: 1px;
+   border-bottom-left-radius: 15px;
+   color: rgb(119, 126, 145);
+   @include fluid-text(16, 8);
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0%;
+   text-align: left;
+   &:focus {
+      outline: none;
+   }
+}
+.inputButton {
+   color: rgb(255, 255, 255);
+   @include fluid-text(14, 8);
+   font-weight: 600;
+   line-height: 20px;
+   letter-spacing: 0px;
+   text-align: center;
+   box-sizing: border-box;
+   color: black;
+   border: 1px solid rgb(217, 218, 219);
+   // border-radius: 20px;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 2px;
+   @include fluid-button-width;
+   @include fluid-button-height;
+   transition: all 0.4s ease;
+   cursor: pointer;
+   &:hover {
+      color: white;
+      background: rgb(0, 0, 0);
+   }
+}
+
+@media (max-width: 1280px) {
+}
+@media (max-width: 1065px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 680px) {
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 329px) {
+}

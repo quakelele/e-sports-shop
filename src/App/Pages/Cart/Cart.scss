@@ -1,0 +1,85 @@
+@use "sass:math";
+@mixin fluid-text($max: 48, $min: 12) {
+  font-size: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+@mixin fluid-button-width($max: 141, $min: 100) {
+  width: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+@mixin fluid-button-height($max: 40, $min: 30) {
+  height: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+.cart {
+  margin: 0 auto;
+  padding: 61px 345px;
+  &__count {
+    h2 {
+      color: rgb(38, 45, 51);
+      @include fluid-text(20, 10);
+      font-weight: 700;
+      text-align: left;
+    }
+    span {
+      color: rgb(147, 150, 153);
+      @include fluid-text(22, 12);
+      font-weight: 400;
+      text-align: left;
+    }
+  }
+  &__wrapper {
+    // height: 350px;
+    width: 100%;
+    border-radius: 10px;
+    background: rgb(245, 245, 245);
+    transition: all 0.3s ease;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.15);
+    &:hover {
+      box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.25);
+    }
+  }
+  &__info {
+    border-radius: 10px;
+    gap: 75px;
+    border-bottom: 1px solid rgb(217, 218, 219);
+    padding: 15px 131px 15px 20px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    list-style-type: none;
+    color: rgb(75, 81, 87);
+    @include fluid-text(14, 8);
+    font-weight: 300;
+    text-align: center;
+    &-item {
+      text-align: left;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .cart {
+    padding: 61px 200px;
+  }
+}
+@media (max-width: 900px) {
+  .cart {
+    padding: 61px 100px;
+  }
+}
+@media (max-width: 768px) {
+  .cart {
+    padding: 51px 50px;
+  }
+}
+@media (max-width: 768px) {
+  .cart {
+    padding: 31px 30px;
+  }
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 329px) {
+}

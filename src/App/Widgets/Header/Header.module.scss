@@ -1,0 +1,209 @@
+@use 'sass:math';
+@mixin fluid-text($max: 12, $min: 8) {
+  font-size: clamp(#{$min}px, #{math.div($max, 1130) * 100}vw, #{$max}px);
+}
+.wrapper {
+  position: static;
+  background-color: #fcfcfd;
+  padding: 20px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+  box-shadow: 3px 1px 11px rgba(0, 0, 0, 0.15);
+  &:hover {
+    box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.15);
+  }
+  &__left {
+    width: 630px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    .navigation {
+      overflow: hidden;
+      display: flex;
+      gap: 32px;
+      list-style-type: none;
+      text-align: left;
+
+      li {
+        cursor: pointer;
+        color: rgb(119, 126, 145);
+        font-weight: 700;
+        line-height: 16px;
+        a {
+          transition: all 0.3s ease;
+          color: rgb(119, 126, 145);
+          &:hover {
+            color: rgb(51, 48, 48);
+          }
+        }
+      }
+    }
+    .logoBlock {
+      align-items: center;
+      display: flex;
+      gap: 32px;
+      justify-content: space-between;
+      img {
+        cursor: pointer;
+      }
+      &__divider {
+        width: 2px;
+        height: 40px;
+        background-color: rgb(230, 232, 236);
+      }
+    }
+  }
+  &__right {
+    position: relative;
+
+    .circleForFavorite {
+
+        display: flex;
+        text-align: center;
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-color: rgb(119, 126, 145);
+        width: 15px;
+        height: 15px;
+        top: -11px;
+        left: 111px;
+        border-radius: 10px;
+        color: white;
+
+    }
+    .circleForBasket {
+   
+        display: flex;
+        text-align: center;
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-color: rgb(119, 126, 145);
+        width: 15px;
+        height: 15px;
+        top: -11px;
+        left: 12px;
+        border-radius: 10px;
+        color: white;
+ 
+    }
+
+    img {
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+    }
+    align-content: center;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+  }
+}
+
+.favoriteButton {
+  color: gray;
+  width: 17px;
+  height: 17px;
+}
+
+.mobileBtn {
+  fill: rgb(119, 126, 145);
+  width: 25px;
+  height: 25px;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1118px) {
+  li {
+    font-size: 25px;
+  }
+
+  .mobileBtn {
+    display: block;
+    position: fixed;
+    right: 20px;
+    top: 30px;
+
+    z-index: 160;
+  }
+
+  .navigation {
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    position: fixed;
+    top: -16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    left: -116%;
+    width: 100%;
+    height: 100vh;
+    z-index: 150;
+    transition: left 1s;
+  }
+}
+.active {
+  left: 0;
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  .wrapper {
+    &__right {
+      gap: 5px;
+      margin-right: 25px;
+      margin-left: 25px;
+      .circleForFavorite {
+       left: 62px;
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 20px 50px;
+
+    &__right {
+      flex-direction: column;
+
+      margin-right: 35px;
+      margin-left: 25px;
+      .circleForFavorite {
+        top: 49px;
+        left: 15px;
+       }
+    }
+    .active {
+      left: -8%;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .wrapper {
+    padding: 20px 50px;
+    &__left {
+      .logoBlock {
+        justify-content: left;
+        gap: 15px;
+      }
+    }
+    &__right {
+      margin-right: 25px;
+      margin-left: 0;
+    }
+    .active {
+      left: -8%;
+    }
+  }
+}
