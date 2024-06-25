@@ -12,6 +12,7 @@
 <li>npm install</li>
 <li>npm run dev</li>
 <li>npm run server</li>
+Local: http://localhost:5173/
 <br>
 
  ![1](https://github.com/quakelele/deviceShop/assets/154896596/c56c3d50-9e0d-4153-9490-23289c71836a)
