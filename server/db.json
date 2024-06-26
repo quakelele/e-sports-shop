@@ -579,9 +579,63 @@
       "rating": 2.5,
       "weight": 950,
       "description": "In the most popular series of Steelseries Arctis players, a new model appeared with a number of chips in the form of updated speakers, an outfield of improved comfort and a removable cable that allows you to connect the device not only to the computer.The developers called these headphones Steelseries Arctis Prime."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/355/steelseries_prime_plus_5.png"
+      ],
+      "title": "SteelSeries Prime+",
+      "types": [
+        0
+      ],
+      "likes": 0,
+      "comments": [],
+      "price": 99,
+      "quantity": 11,
+      "category": "Mouse",
+      "rating": 4.3,
+      "id": 8,
+      "weight": 121,
+      "description": "The wired mouse Steelseries Prime+ is a convenient and reliable game model that will accompany you at all tournaments.The laconic black case is suitable for grip by any hand, and traces of fingers are not visible on the matte surface.Multi -colored illumination turns the mouse into a beautiful decoration of the computer table."
+    },
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/583/asus_rog_delta_s_animate_1.png"
+      ],
+      "title": "ASUS ROG Delta S Animate",
+      "types": [
+        0
+      ],
+      "id": "17",
+      "price": 125,
+      "quantity": 10,
+      "comments": [],
+      "category": "Headset",
+      "rating": 4,
+      "weight": 860,
+      "description": "Now highlighting headphones are no longer surprising, however, the ASUS developers recently managed to create an instance that is equipped not just to backlighting, but by adjustable Anime Matrix diode displays.This feature was received by the ASUS ROG Delta S Animate game headset, only on sale."
     }
   ],
-  "favorites": [],
+  "favorites": [
+    {
+      "imageUrl": [
+        "https://www.clife.ru/upload/iblock/355/steelseries_prime_plus_5.png"
+      ],
+      "title": "SteelSeries Prime+",
+      "types": [
+        0
+      ],
+      "likes": 0,
+      "comments": [],
+      "price": 99,
+      "quantity": 1,
+      "category": "Mouse",
+      "rating": 4.3,
+      "id": 8,
+      "weight": 121,
+      "description": "The wired mouse Steelseries Prime+ is a convenient and reliable game model that will accompany you at all tournaments.The laconic black case is suitable for grip by any hand, and traces of fingers are not visible on the matte surface.Multi -colored illumination turns the mouse into a beautiful decoration of the computer table."
+    }
+  ],
   "users": [
     {
       "email": "dadadada@mail.ru",
