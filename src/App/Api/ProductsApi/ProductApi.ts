@@ -4,7 +4,7 @@ import { createQueryParams } from '../_params'
 export const ProductsApi = createApi({
    reducerPath: 'ProductsApi',
    tagTypes: ['Products'],
-   baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:3005' }),
+   baseQuery: fetchBaseQuery({ baseUrl: 'https://e-sports-api.vercel.app/' }),
    endpoints: build => ({
       getProducts: build.query<ProductType[], GetProductsRequest>({
          query: request => {

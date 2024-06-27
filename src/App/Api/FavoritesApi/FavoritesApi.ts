@@ -4,7 +4,7 @@ import { ProductType } from "../types"
 export const FavoritesApi = createApi({
   reducerPath: "FavoritesApi",
   tagTypes: ["Favorites"],
-  baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:3005" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://e-sports-api.vercel.app/" }),
   endpoints: (build) => ({
     getFavoriteProducts: build.query<ProductType[], void>({
       query: () => "favorites",
