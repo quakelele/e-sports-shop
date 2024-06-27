@@ -4,7 +4,7 @@ import { ProductType } from "../types";
 export const CartApi = createApi({
     reducerPath: "CartApi",
     tagTypes: ["Cart"],
-    baseQuery: fetchBaseQuery({ baseUrl: "https://e-sports-api.vercel.app/" }),
+    baseQuery: fetchBaseQuery({ baseUrl: "https://e-sports-api-ivory.vercel.app/" }),
     endpoints: (build) => ({
 
       getCart: build.query<ProductType[], void>({

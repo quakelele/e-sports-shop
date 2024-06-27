@@ -3,7 +3,7 @@ import { ProductType } from "../types"
 export const ProductCountApi = createApi({
   reducerPath: "ProductCountApi",
   tagTypes: ["Count"],
-  baseQuery: fetchBaseQuery({ baseUrl: "https://e-sports-api.vercel.app/" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://e-sports-api-ivory.vercel.app/" }),
   endpoints: build => ({
     getTotalProducts: build.query<ProductType[], void>({
       query: () => "products",

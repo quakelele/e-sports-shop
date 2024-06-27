@@ -5,7 +5,7 @@ export const AuthApi = createApi({
   reducerPath: "AuthApi",
   tagTypes: ["Users"],
 
-  baseQuery: fetchBaseQuery({ baseUrl: "https://e-sports-api.vercel.app/" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://e-sports-api-ivory.vercel.app/" }),
   endpoints: (build) => ({
     addUser: build.mutation<UsersType, unknown>({
       query(body) {
