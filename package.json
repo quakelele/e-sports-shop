@@ -2,6 +2,7 @@
   "name": "self-project",
   "private": true,
   "version": "0.0.0",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,6 +14,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
     "antd": "^5.14.1",
+    "cors": "^2.8.5",
     "moment": "^2.30.1",
     "react": "^18.2.0",
     "react-animated-heart": "^0.0.8",
@@ -36,5 +38,4 @@
     "typescript": "^5.2.2",
     "vite": "^5.1.0"
   }
- 
 }
