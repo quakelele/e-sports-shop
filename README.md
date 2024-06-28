@@ -15,4 +15,4 @@
 
 Local: http://localhost:5173/
 <br>
-https://e-sports-shop.vercel.app/
+тестовая версия - https://e-sports-shop.vercel.app/
